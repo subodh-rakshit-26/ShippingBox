@@ -7,9 +7,14 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
 }
 
 .navbar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
   float: left;
 }
 

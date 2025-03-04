@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BoxModel from "../models/BoxModel";
 import "./FormView.css";
 
@@ -85,10 +85,12 @@ const FormView = () => {
             ))}
           </select>
         </label>
-        <button type="submit" className="form-button">
+      </form>
+      <div className="save-button-container">
+        <button type="submit" className="form-button" onClick={handleSubmit}>
           Save
         </button>
-      </form>
+      </div>
     </div>
   );
 };
