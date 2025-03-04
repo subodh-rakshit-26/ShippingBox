@@ -1,0 +1,35 @@
+.form-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-error {
+  color: red;
+}
